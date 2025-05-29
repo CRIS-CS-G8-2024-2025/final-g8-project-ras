@@ -18,3 +18,17 @@ function calculate(){
           display.value = "Error";
       }
 }
+
+document.addEventListener(
+      "keydown",
+      (event) => {
+            const keyName = event.key;
+            console.log(keyName);
+            if (keyName == "Enter") {
+                  calculate();
+            } else if(keyName == "Backspace") {
+                  clearDisplay();
+            } else {
+                  appendToDisplay(keyName);
+            }
+      });

@@ -4,11 +4,11 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-     background-color: hsl(0, 0%, 95%);
+     background-color: hsl(25, 35%, 64%);
 }
 #calculator{
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 23%, 97%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -19,7 +19,7 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
-     background-color: hsl(0, 0%, 20%);
+     background-color: hsl(0, 0%, 100%);
 }
 #keys{
     display: grid;
